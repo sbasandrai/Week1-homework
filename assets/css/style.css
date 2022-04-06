@@ -1,23 +1,23 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; /* This styling applies to the entire page */
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Makes the entire background this colour */
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;  
+    color: #ffffff; /* Gives everything in the header section a blue background, off white text colour, padding of 20 points and the stated font family */
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 48px; 
+    font-size: 48px; /* Gives 'Horiseon' a bigger font size in the same line */
 }
 
 .header div {
@@ -26,17 +26,17 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none; 
+    list-style-type: none; /* Gives all the navigation items this font, font style, positioned to the right, with padding */
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px; 
+    margin-left: 25px; /* Allows all navigation items to be positioned in the same line */
 }
 
 a {
     color: #ffffff;
-    text-decoration: none; 
+    text-decoration: none; /* Gives all navigation items the same colour */
 }
 
 .main-image {
@@ -45,17 +45,17 @@ a {
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center; 
+    background-position: center; /* Properties of main image on page, along with link to image URL */
 }
 
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px; 
+    margin-left: 20px; /* Properties of entire main section  */
 }
 
 p {
-    font-size: 16px; 
+    font-size: 16px; /* Font size of all paragraph text in entire page */
 }
 
 .float-left {
@@ -74,7 +74,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; /* Styling Properties of seo section  */
 }
 
 #online-reputation-management {
@@ -83,7 +83,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; /* Styling Properties of online reputation management section  */
 }
 
 #social-media-marketing {
@@ -92,11 +92,11 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; /* Styling Properties of social media marketing section  */
 }
 
 .content img {
-    max-height: 200px;
+    max-height: 200px; /* Properties of images in main section  */
 }
 
 h2 {
@@ -112,12 +112,12 @@ h2 {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; /* Styling Properties of sidebar section to include position, background colour, etc */
 }
 
 .benefit-components{
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* Properties of sidebar section  */
 }
 
 h3 {
@@ -128,16 +128,16 @@ h3 {
 .benefit-components img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; /* Properties of all images in sidebar  */
 }
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: center; /* Properties of entire footer section */
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 20px; /* Font of h2 text in footer  */
 }
