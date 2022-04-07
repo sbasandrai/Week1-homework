@@ -20,7 +20,11 @@ body {
     font-size: 48px; /* Gives 'Horiseon' a bigger font size in the same line */
 }
 
-.header div {
+.header h1 .seo {
+    color: #d9dcd6; /* Gives the 'seo' section of Horiseon a different colour*/
+}
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,7 +33,7 @@ body {
     list-style-type: none; /* Gives all the navigation items this font, font style, positioned to the right, with padding */
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px; /* Allows all navigation items to be positioned in the same line */
 }
